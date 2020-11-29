@@ -1,0 +1,27 @@
+#MainCarousel {
+  max-width: 200px;
+  margin: auto;
+}
+
+.carousel-caption{
+  position: relative;
+  left: auto;
+  right:auto;
+  color: black;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("./img/arrows/left-on.png")
+}
+
+.carousel-control-next-icon {
+  background-image: url("./img/arrows/right-on.png");
+}
+
+.carousel-indicators li{
+  background-color: #B6AEC4;
+}
+
+.carousel-indicators .active{
+  background-color: #8773B6;
+}
